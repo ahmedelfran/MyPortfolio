@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.de6be917.css",
+    "main.js": "/MyPortfolio/static/js/main.11b50d9e.js",
+    "static/js/787.0273dd67.chunk.js": "/MyPortfolio/static/js/787.0273dd67.chunk.js",
+    "static/media/remixicon.svg?t=1590207869815": "/MyPortfolio/static/media/remixicon.9cedd2150922ead84869.svg",
+    "static/media/remixicon.eot?t=1590207869815": "/MyPortfolio/static/media/remixicon.5cb99e6cba5a4619063f.eot",
+    "static/media/remixicon.ttf?t=1590207869815": "/MyPortfolio/static/media/remixicon.f2616f597cf98f38d234.ttf",
+    "static/media/github.jpg": "/MyPortfolio/static/media/github.b9a6863f729601aacd4d.jpg",
+    "static/media/me.jpg": "/MyPortfolio/static/media/me.5816704364962c2dd581.jpg",
+    "static/media/remixicon.woff?t=1590207869815": "/MyPortfolio/static/media/remixicon.8d09fa11700ed63cf96e.woff",
+    "static/media/remixicon.woff2?t=1590207869815": "/MyPortfolio/static/media/remixicon.90668f6f9b3c2c18a090.woff2",
+    "static/media/shape-circle.svg": "/MyPortfolio/static/media/shape-circle.f8a421af5763ea12942063b0a087d536.svg",
+    "static/media/project1.jpg": "/MyPortfolio/static/media/project1.75f1a9a34be1227c2a78.jpg",
+    "static/media/mysql-4.svg": "/MyPortfolio/static/media/mysql-4.090c8ac26d603b15f7143fae4c72f8bd.svg",
+    "static/media/shape-wawes.svg": "/MyPortfolio/static/media/shape-wawes.5ce6612b00023008a2bef45d8ade31df.svg",
+    "static/media/react-2.svg": "/MyPortfolio/static/media/react-2.e68b35f4774979ae220b1d5d7b345b00.svg",
+    "static/media/laravel-3.svg": "/MyPortfolio/static/media/laravel-3.a6ef806d9714fee5943bd65efe9b8af5.svg",
+    "static/media/bootstrap-5-1.svg": "/MyPortfolio/static/media/bootstrap-5-1.98585727bcfe0b1555649ec9bbab236c.svg",
+    "static/media/logo-javascript.svg": "/MyPortfolio/static/media/logo-javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/php-1.svg": "/MyPortfolio/static/media/php-1.7c41b19923da57634a76372016ed129e.svg",
+    "static/media/git-icon.svg": "/MyPortfolio/static/media/git-icon.c60b7e5ae8ec2562f23fdddcab300026.svg",
+    "index.html": "/MyPortfolio/index.html",
+    "static/media/css-3.svg": "/MyPortfolio/static/media/css-3.4e47c3122b8d2476a02f97dcfcb28640.svg",
+    "static/media/html-1.svg": "/MyPortfolio/static/media/html-1.f318c8b1d5945fa9adc827ae94849cb1.svg",
+    "main.de6be917.css.map": "/MyPortfolio/static/css/main.de6be917.css.map",
+    "main.11b50d9e.js.map": "/MyPortfolio/static/js/main.11b50d9e.js.map",
+    "787.0273dd67.chunk.js.map": "/MyPortfolio/static/js/787.0273dd67.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.de6be917.css",
+    "static/js/main.11b50d9e.js"
+  ]
+}
