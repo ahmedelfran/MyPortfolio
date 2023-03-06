@@ -1,0 +1,267 @@
+.home__container {
+    grid-template-columns: 1fr 2fr 1fr;
+    gap: 64px;
+    padding-top: 50px;
+}
+
+.home__data {
+    order: 2;
+    row-gap: 24px;
+}
+
+.home__title {
+    text-align: center;
+    font-size: var(--biggest-font-size);
+    letter-spacing: .4px;
+    margin-bottom: 8px;
+}
+
+.home__blob {
+    position: relative;
+    width: 320px;
+    height: 520px;
+    margin-top: 80px;
+    background-color: var(--body-color);
+    border: 2px solid hsl(207, 4%, 56%);
+    ;
+    justify-self: center;
+    border-radius: 300px;
+    place-items: center;
+}
+
+.home__perfil {
+    width: 260px;
+    height: 450px;
+    background: linear-gradient(180deg, hsla(207, 48%, 72%, 0), rgb(31, 42, 50));
+    border-radius: 290px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.home__perfil img {
+    height: 100%;
+    width: 100%;
+}
+
+.ShapeWawes,
+.ShapeCircle {
+    position: absolute;
+    opacity: .2;
+}
+
+.ShapeWawes {
+    width: 100px;
+    left: -28px;
+    top: 150px;
+}
+
+.ShapeCircle {
+    width: 250px;
+    bottom: -30px;
+    right: -50px;
+    transform: rotate(15deg);
+    z-index: -1;
+}
+
+.home__social {
+    justify-self: center;
+    display: flex;
+    column-gap: 30px;
+
+}
+
+.home__social a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--text-color-hight);
+    transition: color .3s;
+}
+
+.home__social a:hover {
+    color: var(--title-color);
+}
+
+/* ======= home__info ====== */
+.home__info:nth-child(3) {
+    order: 3;
+    text-align: right;
+}
+
+.home__info {
+    margin-top: 300px;
+    display: grid;
+    row-gap: 32px;
+}
+
+.home__info__title {
+    font-family: var(--body-font);
+    font-size: var(--small-font-size);
+    font-weight: 500;
+    color: var(--text-color-hight);
+    margin-bottom: 10px;
+}
+
+.home_info_des,
+.home_info_num {
+    font-family: var(--title-font);
+    color: var(--title-color);
+    font-weight: var(--font-semi-bold);
+    margin-bottom: 30px;
+}
+
+.home_info_des {
+    font-size: var(--small-font-size);
+    padding-right: 64px;
+
+}
+
+.home_info_num {
+    font-size: var(--h1-font-size);
+}
+
+/* ===================== responsive ========================= */
+@media screen and (max-width: 1024px) {
+    .home__blob {
+        width: 290px;
+        height: 420px;
+        margin-top: 40px;
+    }
+
+    .home__perfil {
+        width: 240px;
+        height: 370px;
+    }
+
+    .home__info {
+        margin-top: 160px;
+        row-gap: 32px;
+    }
+
+    .home_info_des,
+    .home_info_num {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .home__container {
+        padding-top: 30px;
+    }
+
+    .home__title {
+        letter-spacing: 1px;
+        margin-bottom: 8px;
+    }
+
+    .home__blob {
+        width: 250px;
+        height: 410px;
+        margin-top: 30px;
+    }
+
+    .home__perfil {
+        width: 200px;
+        height: 360px;
+    }
+
+    .home__info {
+        margin-top: 170px;
+    }
+
+    .home__info__title {
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+
+    .home_info_des,
+    .home_info_num {
+        font-size: 16px;
+    }
+
+    .home__social a {
+        font-size: 24px;
+    }
+
+    .home_info_des {
+        padding-right: 14px;
+    }
+
+    .ShapeWawes {
+        top: 100px;
+    }
+
+    .ShapeCircle {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home__container {
+        grid-template-columns: 1fr;
+        padding-top: 0px;
+    }
+
+    .home__data {
+        order: 0;
+    }
+
+    .home__blob {
+        width: 220px;
+        height: 330px;
+    }
+
+    .home__perfil {
+        width: 170px;
+        height: 280px;
+    }
+
+    .home__info:nth-child(3) {
+        order: 3;
+        text-align: left;
+    }
+
+    .home__info {
+        margin-top: 0px;
+    }
+
+    .home__social a {
+        font-size: 22px;
+    }
+
+    .ShapeCircle {
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .home__container {
+        padding-top: 0px;
+    }
+
+    .home__info {
+        margin-top: 10px;
+    }
+
+    .home__blob {
+        width: 220px;
+        height: 320px;
+    }
+
+    .home__perfil {
+        width: 170px;
+        height: 270px;
+    }
+
+    .home__social a {
+        font-size: 20px;
+    }
+
+    .ShapeCircle {
+        width: 140px;
+    }
+
+}

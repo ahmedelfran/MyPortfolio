@@ -1,0 +1,41 @@
+.footer__container {
+    display: grid;
+    padding: 50px;
+    text-align: center;
+}
+.footer__title {
+    font-size: var();
+    font-weight: var();
+    margin-bottom: 16px;
+}
+.footer__list {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    column-gap: 40px;
+}
+.footer__list a{
+    text-decoration: none;
+    color: var(--title-color);
+}
+.footer__list a:hover {
+    text-decoration: underline;
+}
+.footer__copy{
+    display: block;
+    margin-top: 72px;
+    font-size: var(--smaller-font-size);
+    color: var(--text-color-hight);
+}
+/* ===================== responsive ========================= */
+@media screen and (max-width: 800px) {
+    .footer__list {
+        column-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footer__list {
+        column-gap: 20px;
+    }
+}
